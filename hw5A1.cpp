@@ -21,7 +21,7 @@ int main() {
 
 
     //user input
-    cout << "Enter the number of gold donations ";
+    cout << "Enter the number of gold donations: ";
     cin >> numDonations;
 
     //logic
