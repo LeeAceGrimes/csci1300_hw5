@@ -4,13 +4,15 @@
 
 using namespace std;
 
-int totalGold(int donations[], int size) {
-    int sumDonations = 0;
+// call functions
 
-    for (int i = 0; i < size; i++) {
-        sumDonations += donations[i];
+int totalGold(int donations[], int size) { // totalGold function that holds an array 
+    int sumDonations = 0;   // sum donations set to 0
+
+    for (int i = 0; i < size; i++) { // for loop to scan through index of array
+        sumDonations += donations[i]; // add each individual donation add to total sumDonations
     }
-    return sumDonations;
+    return sumDonations; //return the sum of donations
 }
 
 int main() {
